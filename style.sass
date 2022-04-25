@@ -1,0 +1,109 @@
+/* --- Colors --- */
+$neutral: #FFF
+$main: #3D5BCD
+$odd: #DC5B6B
+/* --- Colors --- */
+/* --- Rules --- */
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    /* Font */
+/* --- Rules --- */  
+/* --- Containers --- */
+.wrapper
+    max-width: 1440px
+    margin-left: auto
+    margin-right: auto
+
+.container
+    display: flex
+
+.verticalCenter
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.CTA
+    padding: 15px 40px
+    background: $odd
+    color: $neutral
+/* --- Containers --- */  
+/* --- Staples --- */
+header
+    position: static
+    top: 0
+    left: 0
+    justify-content: space-between
+    nav
+        ul
+            justify-content: space-between
+
+footer
+
+/* --- Staples --- */   
+/* --- Sections --- */   
+.hero
+    background: black
+    /* ^ (PH) */
+
+.info
+    position: relative
+    figure
+        width: calc( 50% - 112px )
+        background: #000
+        /* ^ (PH) */
+@media screen and (max-width: 1440px)
+    .info
+        figure
+            width: 41.666%
+
+.alt
+    background: url(), $main
+    /* ^ (PH) Add image */
+
+.productSlide
+    .product
+        figure
+            aspect-ratio: 1
+            background: $main
+            border-radius: 20px
+        a
+            color: $odd
+            /* arrow? wtf (PH) */
+.insta
+    section
+        div
+            width: 50%
+
+/* --- Sections --- */
+/* --- Columns --- */
+@for $i from 1 through 12
+  .col#{$i}
+    width: calc((100% / 12) * #{$i})
+    padding-left: .41666% !important
+    padding-right: .41666% !important
+@for $i from 1 through 12
+  .push#{$i}
+    margin-left: calc((100% / 12) * #{$i})
+
+@media screen and (max-width: 834px)
+    @for $i from 1 through 8
+        .m-col#{$i}
+            width: calc((100% / 8) * #{$i}) !important
+            padding-left: .41666%
+            padding-right: .41666%
+    @for $i from 1 through 8
+        .m-push#{$i}
+            margin-left: calc((100% / 8) * #{$i}) !important
+
+@media screen and (max-width: 500px)
+    @for $i from 1 through 4
+        .s-col#{$i}
+            width: calc((100% / 4) * #{$i}) !important
+            padding-left: .41666% !important
+            padding-right: .41666% !important
+    @for $i from 1 through 4
+        .s-push#{$i}
+            margin-left: calc((100% / 4) * #{$i}) !important
+/* --- Columns --- */
