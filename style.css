@@ -34,7 +34,7 @@ p {
 /* --- Rules --- */
 /* --- Containers --- */
 .wrapper {
-  max-width: 1440px;
+  max-width: 1200px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -107,6 +107,10 @@ header nav ul li a {
 .hero {
   background: black;
   /* ^ (PH) */
+}
+
+.hero h1 {
+  color: #FFF;
 }
 
 .info {
