@@ -8,11 +8,26 @@ $odd: #DC5B6B
     margin: 0
     padding: 0
     box-sizing: border-box
-    /* Font */
+    font-family: lato, sans-serif
+
+/* Font */
+h1, h2, h3, h4, h5, h6
+    font-weight: bold
+h1
+    font-size: 56px
+h2, h3, h4, h5, h6
+    font-size: 52px
+p
+    font-size: 16px
+.m-font-size
+    font-size: 32px
+    font-weight: bold
+        
 /* --- Rules --- */  
 /* --- Containers --- */
 .wrapper
     max-width: 1440px
+    width: 100%
     margin-left: auto
     margin-right: auto
 
@@ -31,13 +46,24 @@ $odd: #DC5B6B
 /* --- Containers --- */  
 /* --- Staples --- */
 header
-    position: static
+    position: fixed
     top: 0
     left: 0
+    width: 100%
+    height: 39px
+    padding: 14px 26.5px 0
     justify-content: space-between
+    align-items: center
     nav
+        max-width: 475px
+        width: 100%
         ul
             justify-content: space-between
+            li
+                list-style: none
+                a
+                    text-decoration: none
+                    color: $neutral
 
 footer
 

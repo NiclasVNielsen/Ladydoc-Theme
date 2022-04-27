@@ -56,7 +56,7 @@
             <figure>
                 <img src="" alt="">
             </figure>
-            <h5>
+            <h5 class="m-font-size">
                 Lichen Sclerosus
             </h5>
             <p>
@@ -69,7 +69,7 @@
             <figure>
                 <img src="" alt="">
             </figure>
-            <h5>
+            <h5 class="m-font-size">
                 Overgangsalder
             </h5>
             <p>
@@ -82,7 +82,7 @@
             <figure>
                 <img src="" alt="">
             </figure>
-            <h5>
+            <h5 class="m-font-size">
                 PCO
             </h5>
             <p>
@@ -95,7 +95,7 @@
             <figure>
                 <img src="" alt="">
             </figure>
-            <h5>
+            <h5 class="m-font-size">
                 Andropause
             </h5>
             <p>
