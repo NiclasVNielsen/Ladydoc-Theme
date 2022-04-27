@@ -34,7 +34,7 @@ p {
 /* --- Rules --- */
 /* --- Containers --- */
 .wrapper {
-  max-width: 1200px;
+  max-width: 1224px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -153,74 +153,74 @@ header nav ul li a {
 /* --- Columns --- */
 .col1 {
   width: calc((100% / 12) * 1);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col2 {
   width: calc((100% / 12) * 2);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col3 {
   width: calc((100% / 12) * 3);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col4 {
   width: calc((100% / 12) * 4);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col5 {
   width: calc((100% / 12) * 5);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col6 {
   width: calc((100% / 12) * 6);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col7 {
   width: calc((100% / 12) * 7);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col8 {
   width: calc((100% / 12) * 8);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col9 {
   width: calc((100% / 12) * 9);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col10 {
   width: calc((100% / 12) * 10);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col11 {
   width: calc((100% / 12) * 11);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .col12 {
   width: calc((100% / 12) * 12);
-  padding-left: .41666% !important;
-  padding-right: .41666% !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .push1 {
@@ -274,43 +274,43 @@ header nav ul li a {
 @media screen and (max-width: 834px) {
   .m-col1 {
     width: calc((100% / 8) * 1) !important;
-    padding-left: .41666%;
-    padding-right: .41666%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .m-col2 {
     width: calc((100% / 8) * 2) !important;
-    padding-left: .41666%;
-    padding-right: .41666%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .m-col3 {
     width: calc((100% / 8) * 3) !important;
-    padding-left: .41666%;
-    padding-right: .41666%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .m-col4 {
     width: calc((100% / 8) * 4) !important;
-    padding-left: .41666%;
-    padding-right: .41666%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .m-col5 {
     width: calc((100% / 8) * 5) !important;
-    padding-left: .41666%;
-    padding-right: .41666%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .m-col6 {
     width: calc((100% / 8) * 6) !important;
-    padding-left: .41666%;
-    padding-right: .41666%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .m-col7 {
     width: calc((100% / 8) * 7) !important;
-    padding-left: .41666%;
-    padding-right: .41666%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .m-col8 {
     width: calc((100% / 8) * 8) !important;
-    padding-left: .41666%;
-    padding-right: .41666%;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .m-push1 {
     margin-left: calc((100% / 8) * 1) !important;
@@ -341,23 +341,23 @@ header nav ul li a {
 @media screen and (max-width: 500px) {
   .s-col1 {
     width: calc((100% / 4) * 1) !important;
-    padding-left: .41666% !important;
-    padding-right: .41666% !important;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .s-col2 {
     width: calc((100% / 4) * 2) !important;
-    padding-left: .41666% !important;
-    padding-right: .41666% !important;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .s-col3 {
     width: calc((100% / 4) * 3) !important;
-    padding-left: .41666% !important;
-    padding-right: .41666% !important;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .s-col4 {
     width: calc((100% / 4) * 4) !important;
-    padding-left: .41666% !important;
-    padding-right: .41666% !important;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .s-push1 {
     margin-left: calc((100% / 4) * 1) !important;
