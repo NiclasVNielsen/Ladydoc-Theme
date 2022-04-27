@@ -20,8 +20,8 @@
             </h2>
             <p>
                 Ladydoc er et “digitalt rum” hvor du kan føle dig tryg - Et online univers, hvor du kan finde svar og udforske problemstillinger om krop, sex og trivsel. Ladydoc stiller faglighed, erfaring og viden til rådighed for dig som er interesseret i udvikling, uafhængigt af køn, sex og orientering.
-            </p>
-            <p>
+                <br>
+                <br>
                 Det handler om din krop - dit liv - og din privatsfære, Ladydoc er for dig som ville have krop, sundhed og hverdag til at hænge sammen igen. I hverdagen kan der opstå emner som går over den normale, lægelige konsultation, derfor har vi skabt dette tillidsforhold - det er beskyttet og det handler om dig, vi tager os tid og låner dig vores øjne.
             </p>
         </article>
@@ -32,18 +32,19 @@
     </figure>
 </main>
 
-<section class="wrapper alt">
-    <!-- Alt color of some kind -->
-    <div class="verticalCenter">
-        <h3>
-            Brug for inspiration til at finde din løsning?
-        </h3>
-        <p>
-            Tag testen og find ud af den bedste løsning for dig
-        </p>
-        <a class="CTA" href="">
-            Find din løsning
-        </a>
+<section class="alt">
+    <div class="wrapper">
+        <div class="verticalCenter">
+            <h3>
+                Brug for inspiration til at finde din løsning?
+            </h3>
+            <p>
+                Tag testen og find ud af den bedste løsning for dig
+            </p>
+            <a class="CTA" href="">
+                Find din løsning
+            </a>
+        </div>
     </div>
 </section>
 

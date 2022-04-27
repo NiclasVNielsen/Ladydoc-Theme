@@ -12,6 +12,8 @@
 /* Font */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  line-height: 80px;
+  letter-spacing: -.015em;
 }
 
 h1 {
@@ -24,6 +26,7 @@ h2, h3, h4, h5, h6 {
 
 p {
   font-size: 16px;
+  line-height: 32px;
 }
 
 .m-font-size {
@@ -106,6 +109,7 @@ header nav ul li a {
 /* --- Sections --- */
 .hero {
   background: black;
+  height: 100vh;
   /* ^ (PH) */
 }
 
@@ -113,13 +117,24 @@ header nav ul li a {
   color: #FFF;
 }
 
-.info {
+.info .wrapper {
   position: relative;
+}
+
+.info .wrapper article {
+  position: absolute;
+  margin-top: 40%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .info figure {
   width: calc( 50% - 112px);
+  margin-left: calc(50% + 112px);
+  height: 100vh;
   background: #000;
+  overflow: hidden;
+  border-radius: 120px 0 0 0;
   /* ^ (PH) */
 }
 
