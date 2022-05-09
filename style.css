@@ -9,11 +9,20 @@
   font-family: lato, sans-serif;
 }
 
+body {
+  background: #F2F2F2;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Font */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   line-height: 80px;
   letter-spacing: -.015em;
+  color: #20214F;
 }
 
 h1 {
@@ -27,11 +36,24 @@ h2, h3, h4, h5, h6 {
 p {
   font-size: 16px;
   line-height: 32px;
+  color: #303188;
 }
 
 .m-font-size {
   font-size: 32px;
   font-weight: bold;
+}
+
+.titleColor {
+  color: #20214F;
+}
+
+.bodyTextColor {
+  color: #303188;
+}
+
+.brightFont {
+  color: #FFF;
 }
 
 /* --- Rules --- */
@@ -66,6 +88,9 @@ p {
   padding: 15px 40px;
   background: #DC5B6B;
   color: #FFF;
+  width: 196px;
+  text-align: center;
+  border-radius: 50px;
 }
 
 /* --- Containers --- */
@@ -101,7 +126,6 @@ header nav ul li {
 }
 
 header nav ul li a {
-  text-decoration: none;
   color: #FFF;
 }
 
@@ -111,10 +135,6 @@ header nav ul li a {
   background: black;
   height: 100vh;
   /* ^ (PH) */
-}
-
-.hero h1 {
-  color: #FFF;
 }
 
 .info .wrapper {
@@ -147,6 +167,19 @@ header nav ul li a {
 .alt {
   background: url(), #3D5BCD;
   /* ^ (PH) Add image */
+  min-height: 960px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.alt .CTA {
+  margin: 3px auto 0;
+}
+
+.productSlide {
+  padding-top: 196px;
 }
 
 .productSlide .product figure {
@@ -158,6 +191,18 @@ header nav ul li a {
 .productSlide .product a {
   color: #DC5B6B;
   /* arrow? wtf (PH) */
+}
+
+.insta {
+  padding-top: 282px;
+}
+
+.insta article h6 {
+  margin-bottom: 39px;
+}
+
+.insta article .CTA {
+  margin-top: 15px;
 }
 
 .insta section div {

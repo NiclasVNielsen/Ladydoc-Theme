@@ -1,7 +1,10 @@
 /* --- Colors --- */
-$neutral: #FFF
+$neutral: #F2F2F2
 $main: #3D5BCD
 $odd: #DC5B6B
+$titleColor: #20214F
+$bodyTextColor: #303188
+$brightFont: #FFF
 /* --- Colors --- */
 /* --- Rules --- */
 *
@@ -10,21 +13,38 @@ $odd: #DC5B6B
     box-sizing: border-box
     font-family: lato, sans-serif
 
+body
+    background: $neutral
+
+a
+    text-decoration: none
+
 /* Font */
 h1, h2, h3, h4, h5, h6
     font-weight: bold
     line-height: 80px
     letter-spacing: -.015em
+    color: $titleColor
 h1
     font-size: 56px
 h2, h3, h4, h5, h6
     font-size: 52px
+
 p
     font-size: 16px
     line-height: 32px
+    color: $bodyTextColor
+
 .m-font-size
     font-size: 32px
     font-weight: bold
+
+.titleColor
+    color: $titleColor
+.bodyTextColor
+    color: $bodyTextColor
+.brightFont
+    color: $brightFont
         
 /* --- Rules --- */  
 /* --- Containers --- */
@@ -45,7 +65,10 @@ p
 .CTA
     padding: 15px 40px
     background: $odd
-    color: $neutral
+    color: $brightFont
+    width: 196px
+    text-align: center
+    border-radius: 50px
 /* --- Containers --- */  
 /* --- Staples --- */
 header
@@ -65,8 +88,7 @@ header
             li
                 list-style: none
                 a
-                    text-decoration: none
-                    color: $neutral
+                    color: $brightFont
 
 footer
 
@@ -77,7 +99,7 @@ footer
     height: 100vh
     /* ^ (PH) */
     h1
-        color: $neutral
+        //color: $neutral
 
 .info
     .wrapper
@@ -102,8 +124,14 @@ footer
 .alt
     background: url(), $main
     /* ^ (PH) Add image */
+    min-height: 960px
+    align-items: center
+    text-align: center
+    .CTA
+        margin: 3px auto 0
 
 .productSlide
+    padding-top: 196px
     .product
         figure
             aspect-ratio: 1
@@ -113,6 +141,12 @@ footer
             color: $odd
             /* arrow? wtf (PH) */
 .insta
+    padding-top: 282px
+    article
+        h6
+            margin-bottom: 39px
+        .CTA
+            margin-top: 15px
     section
         div
             width: 50%

@@ -5,7 +5,7 @@
 <!-- Wrapper size + col padding to make it accurate the easiest -->
 
 <section class="hero verticalCenter">
-    <h1 class="wrapper">
+    <h1 class="wrapper brightFont">
         <span class="col7" style="display: block;">
             The largest community of photo enthusiasts
         </span>
@@ -32,13 +32,13 @@
     </figure>
 </main>
 
-<section class="alt">
+<section class="alt container">
     <div class="wrapper">
         <div class="verticalCenter">
-            <h3>
+            <h3 class="brightFont">
                 Brug for inspiration til at finde din løsning?
             </h3>
-            <p>
+            <p class="brightFont">
                 Tag testen og find ud af den bedste løsning for dig
             </p>
             <a class="CTA" href="">
@@ -49,7 +49,7 @@
 </section>
 
 <section class="wrapper productSlide">
-    <h4>
+    <h4 class="col12">
         Alt om
     </h4>
     <div class="container">
