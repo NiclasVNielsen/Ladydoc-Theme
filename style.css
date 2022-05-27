@@ -17,6 +17,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 /* Font */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
@@ -129,6 +134,71 @@ header nav ul li a {
   color: #FFF;
 }
 
+footer {
+  margin-top: 100px;
+  background: #3D5BCD;
+  min-height: 425px;
+  padding: 64px 65px 119px;
+}
+
+footer p, footer li, footer h6 {
+  color: #F2F2F2;
+  font-size: 15px;
+}
+
+footer .container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container.upper ul {
+  width: 151px;
+}
+
+footer .container.upper ul h6 {
+  font-weight: 700;
+  line-height: 1em;
+  margin-bottom: 16px;
+}
+
+footer .container.upper ul li {
+  list-style: none;
+  line-height: 24px;
+}
+
+footer .container.bottom {
+  padding-right: 103px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container.bottom > div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container.bottom > div p {
+  margin-right: 45px;
+}
+
+footer .container.bottom > div svg {
+  margin-right: 11px;
+}
+
+footer .container.bottom > div svg:last-of-type {
+  margin-right: 0;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid #DC5B6B;
+  margin-top: 60px;
+  margin-bottom: 27px;
+}
+
 /* --- Staples --- */
 /* --- Sections --- */
 .hero {
@@ -137,25 +207,23 @@ header nav ul li a {
   /* ^ (PH) */
 }
 
+.info {
+  overflow-x: hidden;
+}
+
 .info .wrapper {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .info .wrapper article {
-  position: absolute;
-  margin-top: 40%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-.info figure {
-  width: calc( 50% - 112px);
-  margin-left: calc(50% + 112px);
-  height: 100vh;
-  background: #000;
-  overflow: hidden;
-  border-radius: 120px 0 0 0;
-  /* ^ (PH) */
+  display: block;
 }
 
 @media screen and (max-width: 1440px) {
@@ -166,8 +234,7 @@ header nav ul li a {
 
 .alt {
   background: url(), #3D5BCD;
-  /* ^ (PH) Add image */
-  min-height: 960px;
+  min-height: 480px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -179,7 +246,7 @@ header nav ul li a {
 }
 
 .productSlide {
-  padding-top: 196px;
+  padding-top: 100px;
 }
 
 .productSlide .product figure {
@@ -194,7 +261,7 @@ header nav ul li a {
 }
 
 .insta {
-  padding-top: 282px;
+  padding-top: 100px;
 }
 
 .insta article h6 {

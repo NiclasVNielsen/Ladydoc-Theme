@@ -25,11 +25,10 @@
                 Det handler om din krop - dit liv - og din privatsfære, Ladydoc er for dig som ville have krop, sundhed og hverdag til at hænge sammen igen. I hverdagen kan der opstå emner som går over den normale, lægelige konsultation, derfor har vi skabt dette tillidsforhold - det er beskyttet og det handler om dig, vi tager os tid og låner dig vores øjne.
             </p>
         </article>
+        <figure class="col5 push1">
+            <img src="<?php echo get_bloginfo('template_url') ?>/images/jigsaw.png" alt="Manglende brik">
+        </figure>
     </section>
-
-    <figure>
-        <img src="" alt="">
-    </figure>
 </main>
 
 <section class="alt container">

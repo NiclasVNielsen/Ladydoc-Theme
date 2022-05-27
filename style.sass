@@ -19,6 +19,10 @@ body
 a
     text-decoration: none
 
+img
+    width: 100%
+    height: auto
+
 /* Font */
 h1, h2, h3, h4, h5, h6
     font-weight: bold
@@ -91,7 +95,43 @@ header
                     color: $brightFont
 
 footer
+    margin-top: 100px
+    background: $main
+    min-height: 425px
+    padding: 64px 65px 119px
+    p,li,h6
+        color: $neutral
+        font-size: 15px
+    .container
+        justify-content: space-between
+        &.upper
+            ul
+                width: 151px
+                h6
+                    font-weight: 700
+                    line-height: 1em
+                    margin-bottom: 16px
+                li
+                    list-style: none
+                    line-height: 24px
 
+        &.bottom
+            padding-right: 103px
+            align-items: center
+            >div
+                align-items: center
+                p
+                    margin-right: 45px
+                svg
+                    margin-right: 11px
+                    &:last-of-type
+                        margin-right: 0
+
+    hr
+        border: none
+        border-top: 1px solid $odd
+        margin-top: 60px
+        margin-bottom: 27px
 /* --- Staples --- */   
 /* --- Sections --- */   
 .hero
@@ -102,20 +142,15 @@ footer
         //color: $neutral
 
 .info
+    overflow-x: hidden
     .wrapper
-        position: relative
+        display: flex
+        align-items: center
+        margin-top: 100px
+        margin-bottom: 100px
         article
-            position: absolute
-            margin-top: 40%
-            transform: translateY(-50%)
-    figure
-        width: calc( 50% - 112px )
-        margin-left: calc(50% + 112px)
-        height: 100vh
-        background: #000
-        overflow: hidden
-        border-radius: 120px 0 0 0
-        /* ^ (PH) */
+            display: block
+
 @media screen and (max-width: 1440px)
     .info
         figure
@@ -123,15 +158,14 @@ footer
 
 .alt
     background: url(), $main
-    /* ^ (PH) Add image */
-    min-height: 960px
+    min-height: 480px
     align-items: center
     text-align: center
     .CTA
         margin: 3px auto 0
 
 .productSlide
-    padding-top: 196px
+    padding-top: 100px
     .product
         figure
             aspect-ratio: 1
@@ -141,7 +175,7 @@ footer
             color: $odd
             /* arrow? wtf (PH) */
 .insta
-    padding-top: 282px
+    padding-top: 100px
     article
         h6
             margin-bottom: 39px
