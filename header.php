@@ -34,3 +34,13 @@
             ?>
         </nav>
     </header>
+<script defer>
+    const header = document.querySelector('header')
+    document.addEventlistener('scroll', () => {
+        if(document.documentElement.scrollTop == 0) {
+            header.classList.remove("background")
+        }else{
+            header.classList.add("background")
+        }
+    })
+</script>

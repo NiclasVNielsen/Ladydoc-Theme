@@ -61,6 +61,10 @@ p {
   color: #FFF;
 }
 
+.brightFont p {
+  color: #FFF;
+}
+
 /* --- Rules --- */
 /* --- Containers --- */
 .wrapper {
@@ -133,6 +137,10 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+header.background {
+  background: #000;
 }
 
 header nav {
@@ -399,7 +407,7 @@ footer hr {
 /* App */
 .appHero {
   position: relative;
-  height: 900px;
+  height: 98vh;
   overflow: hidden;
   background: #3D5BCD;
 }
