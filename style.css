@@ -170,6 +170,10 @@ header nav > div > ul > li .sub-menu {
   transition: 100;
 }
 
+header nav > div > ul > li .sub-menu li {
+  list-style: none;
+}
+
 header nav > div > ul > li .sub-menu a {
   color: #FFF;
 }
