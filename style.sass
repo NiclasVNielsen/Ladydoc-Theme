@@ -105,12 +105,26 @@ header
     nav
         max-width: 475px
         width: 100%
-        ul
-            justify-content: space-between
-            li
-                list-style: none
-                a
-                    color: $brightFont
+        >div
+            >ul
+                display: flex
+                justify-content: space-between
+                >li
+                    list-style: none
+                    position: relative
+                    >a
+                        color: $brightFont
+                    a:hover + .sub-menu
+                        display: block
+                    .sub-menu
+                        top: 1em
+                        position: absolute
+                        display: none
+                        transition: 100
+                        a
+                            color: $brightFont
+                        &:hover
+                            display: block
 
 footer
     margin-top: 100px

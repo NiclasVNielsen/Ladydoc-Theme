@@ -140,18 +140,42 @@ header nav {
   width: 100%;
 }
 
-header nav ul {
+header nav > div > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-header nav ul li {
+header nav > div > ul > li {
   list-style: none;
+  position: relative;
 }
 
-header nav ul li a {
+header nav > div > ul > li > a {
   color: #FFF;
+}
+
+header nav > div > ul > li a:hover + .sub-menu {
+  display: block;
+}
+
+header nav > div > ul > li .sub-menu {
+  top: 1em;
+  position: absolute;
+  display: none;
+  -webkit-transition: 100;
+  transition: 100;
+}
+
+header nav > div > ul > li .sub-menu a {
+  color: #FFF;
+}
+
+header nav > div > ul > li .sub-menu:hover {
+  display: block;
 }
 
 footer {
