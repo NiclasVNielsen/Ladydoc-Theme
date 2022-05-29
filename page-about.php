@@ -25,7 +25,7 @@
             <?php the_field("hvem_er_ghada") ?>
         </article>
         <figure class="col6">
-            <!-- <iframe style="margin: 0 auto; display: block" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OL0aglMf0fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </figure>
     </section>
 </main>
