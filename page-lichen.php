@@ -5,7 +5,7 @@
 <section class="alt_omHero" id="lichen">
     <h1>
         <span>Alt om:</span><br>
-        Lichen Sclerosus
+        <?php the_field("side_title")?>
     </h1>
     <img src="<?php echo get_bloginfo('template_url') ?>/images/lichen.png" alt="">
 </section>
@@ -14,15 +14,9 @@
         <div class="wrapper container">
             <article class="col6">
                 <h2 style="margin-bottom: 57px">
-                    Hvad er Lichen?
+                    <?php the_field("hvad_er_det_title")?>
                 </h2>
-                <p>
-                    Lichen Sclerosus er en kronisk hudsygdom, som påvirker huden og slimhinderne på de ydre kønsdele og huden omkring endetarmen. Sygdommen er autoimmun og  opstår fordi kroppens immunforsvar fejlagtigt producerer antistoffer mod dele af kroppens eget væv.
-                </p>
-                <br>
-                <p>
-                    Den kan både ramme mænd og kvinder og i nogle tilfælde kan det opstå i barndommen. Lichen Sclerosus bliver ofte fejlagtigt diagnosticeret som svamp eller orm, hvilket gør at den ofte bliver behandlet forkert.
-                </p>
+                <?php the_field("hvad_er_det_paragraph")?>
             </article>
             <figure class="col5 push1">
                 <img src="<?php echo get_bloginfo('template_url') ?>/images/blodapelsin.png" alt="">
@@ -37,13 +31,14 @@
             <article class="col6 push1 box">
                 <h2 style="margin-bottom: 26px">
                     Symptomer
+                    <?php the_field("symptom_title")?>
                 </h2>
                 <div class="container">
                     <p class="number">
                         1.
                     </p>
                     <p class="text">
-                        Kløe, ømhed og svie i området af kønsdele og endetarmsåbning
+                        <?php the_field("symptom_1")?>
                     </p>
                 </div>
                 <div class="container">
@@ -51,7 +46,7 @@
                         2.
                     </p>
                     <p class="text">
-                        Hvidepletter omkring kønsdele og endetarmsåbning
+                        <?php the_field("symptom_2")?>
                     </p>
                 </div>
                 <div class="container">
@@ -59,7 +54,7 @@
                         3.
                     </p>
                     <p class="text">
-                        Smerter ved kønsdele under samleje, toiletbesøg eller fysisk aktivitet
+                        <?php the_field("symptom_3")?>
                     </p>
                 </div>
                 <div class="container">
@@ -67,7 +62,7 @@
                         4.
                     </p>
                     <p class="text">
-                        Anatomiske forandringer
+                        <?php the_field("symptom_4")?>
                     </p>
                 </div>
                 <div class="container">
@@ -75,7 +70,7 @@
                         5.
                     </p>
                     <p class="text">
-                        Indsnævring af skedeåbning eller forsnævring af forhud hos mænd.
+                        <?php the_field("symptom_5")?>
                     </p>
                 </div>
                 <div class="container">
@@ -83,7 +78,7 @@
                         6.
                     </p>
                     <p class="text">
-                        Forstoppelse eller inkontinents-symptomer
+                        <?php the_field("symptom_6")?>
                     </p>
                 </div>
                 <div class="container">
@@ -91,7 +86,7 @@
                         7.
                     </p>
                     <p class="text">
-                        Symptomer som kommer og går
+                        <?php the_field("symptom_7")?>
                     </p>
                 </div>
             </article>
@@ -101,14 +96,14 @@
         <div class="wrapper container">
             <article class="col6 box">
                 <h2 style="margin-bottom: 40px">
-                    Hvad kan hjælpe?
+                    <?php the_field("hvad_kan_hjaelpe_title")?>
                 </h2>
                 <div class="container">
                     <p class="number">
                         1.
                     </p>
                     <p class="text">
-                        Immunstyrkende salve eller binyrebarkhormon
+                        <?php the_field("hjaelp_1")?>
                     </p>
                 </div>
                 <div class="container">
@@ -116,7 +111,7 @@
                         2.
                     </p>
                     <p class="text">
-                        Cremer med fedt eller olie som egner sig til brug på kønsdele
+                        <?php the_field("hjaelp_2")?>
                     </p>
                 </div>
                 <div class="container">
@@ -124,7 +119,7 @@
                         3.
                     </p>
                     <p class="text">
-                        Laser
+                        <?php the_field("hjaelp_3")?>
                     </p>
                 </div>
                 <div class="container">
@@ -132,7 +127,7 @@
                         4.
                     </p>
                     <p class="text">
-                        Antiinflammatorisk kost
+                        <?php the_field("hjaelp_4")?>
                     </p>
                 </div>
                 <div class="container">
@@ -140,7 +135,7 @@
                         5.
                     </p>
                     <p class="text">
-                        Undgå tætsiddende påklædning
+                        <?php the_field("hjaelp_5")?>
                     </p>
                 </div>
                 <div class="container">
@@ -148,7 +143,7 @@
                         6.
                     </p>
                     <p class="text">
-                        Sov uden underbukser og lad området få luft
+                        <?php the_field("hjaelp_6")?>
                     </p>
                 </div>
                 <div class="container">
@@ -156,7 +151,7 @@
                         7.
                     </p>
                     <p class="text">
-                        Undgå intimbarbering, parfumer og sæber
+                        <?php the_field("hjaelp_7")?>
                     </p>
                 </div>
                 <div class="container">
@@ -164,7 +159,7 @@
                         8.
                     </p>
                     <p class="text">
-                        Gør brug af cykelsadel til kvinder
+                        <?php the_field("hjaelp_8")?>
                     </p>
                 </div>
             </article>

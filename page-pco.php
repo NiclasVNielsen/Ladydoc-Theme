@@ -5,7 +5,7 @@
 <section class="alt_omHero" id="PCO">
     <h1>
         <span>Alt om:</span><br>
-        PCO
+        <?php the_field("side_title")?>
     </h1>
     <img src="<?php echo get_bloginfo('template_url') ?>/images/pco.png" alt="">
 </section>
@@ -14,15 +14,9 @@
         <div class="wrapper container">
             <article class="col6">
                 <h2 style="margin-bottom: 57px">
-                    Hvad er PCO?
+                    <?php the_field("hvad_er_det_title")?>
                 </h2>
-                <p>
-                    PCO står for polycystiske ovarier og er en sygdom hvor kvinden kan opleve at få mange, små cyster eller blærer i æggestokkene. Sygdommen er en hormonforstyrrelse og det medfører at kvinden, som lider af PCO, har en forhøjelse af det mandlige kønshormon.
-                </p>
-                <br>
-                <p>
-                    PCO kan skyldes en blanding af arvelige faktorer og miljø faktorer, ofte ser man PCO i sammenhæng med overvægt, ufrivilig barnløshed, livstilssygdomme, herunder diabetes 2 og hjertekarsygdomme.
-                </p>
+                <?php the_field("hvad_er_det_paragraph")?>
             </article>
             <figure class="col5 push1">
                 <img src="<?php echo get_bloginfo('template_url') ?>/images/uterus.png" alt="">
@@ -36,14 +30,14 @@
             </figure>
             <article class="col6 push1 box">
                 <h2 style="margin-bottom: 35px">
-                    Symptomer
+                    <?php the_field("hvad_er_det_paragraph")?>
                 </h2>
                 <div class="container">
                     <p class="number">
                         1.
                     </p>
                     <p class="text">
-                        Udeblevet eller manglende menstruation
+                        <?php the_field("symptom_1")?>
                     </p>
                 </div>
                 <div class="container">
@@ -51,7 +45,7 @@
                         2.
                     </p>
                     <p class="text">
-                        Ufrivillig barnløshed
+                        <?php the_field("symptom_2")?>
                     </p>
                 </div>
                 <div class="container">
@@ -59,7 +53,7 @@
                         3.
                     </p>
                     <p class="text">
-                        Forhøjet eller unormalt hårvækst på kroppen, især ansigt
+                        <?php the_field("symptom_3")?>
                     </p>
                 </div>
                 <div class="container">
@@ -67,7 +61,7 @@
                         4.
                     </p>
                     <p class="text">
-                        Huden kan være angrebet af akne eller urenheder
+                        <?php the_field("symptom_4")?>
                     </p>
                 </div>
                 <div class="container">
@@ -75,7 +69,7 @@
                         5.
                     </p>
                     <p class="text">
-                        Over halvdelen af PCO patienter er overvægtige
+                        <?php the_field("symptom_5")?>
                     </p>
                 </div>
                 <div class="container">
@@ -83,7 +77,7 @@
                         6.
                     </p>
                     <p class="text">
-                        Tendens til hårtab
+                        <?php the_field("symptom_6")?>
                     </p>
                 </div>
                 <div class="container">
@@ -91,7 +85,7 @@
                         7.
                     </p>
                     <p class="text">
-                        Overvægt som ofte sætter sig på maven
+                        <?php the_field("symptom_7")?>
                     </p>
                 </div>
             </article>
@@ -101,14 +95,14 @@
         <div class="wrapper container">
             <article class="col6 box">
                 <h2 style="margin-bottom: 87px">
-                    Hvad kan hjælpe?
+                    <?php the_field("hvad_kan_hjaelpe_title")?>
                 </h2>
                 <div class="container">
                     <p class="number">
                         1.
                     </p>
                     <p class="text">
-                        Behandling med p-piller, epiliering eller laser ved forhøjet hårvækst
+                        <?php the_field("hjaelp_1")?>
                     </p>
                 </div>
                 <div class="container">
@@ -116,7 +110,7 @@
                         2.
                     </p>
                     <p class="text">
-                        Kostplan og motion
+                        <?php the_field("hjaelp_2")?>
                     </p>
                 </div>
                 <div class="container">
@@ -124,7 +118,7 @@
                         3.
                     </p>
                     <p class="text">
-                        Vitamin B6 og zink
+                        <?php the_field("hjaelp_3")?>
                     </p>
                 </div>
             </article>

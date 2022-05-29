@@ -6,7 +6,7 @@
 <section class="alt_omHero" id="overgangsalderen">
     <h1>
         <span>Alt om:</span><br>
-        Overgangsalderen
+        <?php the_field("side_title")?>
     </h1>
     <img src="<?php echo get_bloginfo('template_url') ?>/images/overgangsalderen.png" alt="">
 </section>
@@ -15,15 +15,9 @@
         <div class="wrapper container">
             <article class="col6">
                 <h2 style="margin-bottom: 57px">
-                    Hvad er Overgangsalderen?
+                    <?php the_field("hvad_er_det_title")?>
                 </h2>
-                <p>
-                    Overgangsalderen, eller menopause, er en fase i kvinders liv, sim opstår omkring 45 til 55 års alderen. Det der sker i overgangsalderen, rent biologisk, er at produktionen af de kvindelige kønshormoner, østrogen og gestagen, begynder at aftage lige så stille. 
-                </p>
-                <br>
-                <p>
-                    Æggestokkene stopper også gradvist med at modne æg og kvinden kan i de fleste tilfælde heller ikke blive gravid mere. Symptomerne i overgangsalderen varierer fra kvinde til kvinde, nogle oplever store gener, hvor andre kommer igennem nemt.
-                </p>
+                <?php the_field("hvad_er_det_paragraph")?>
             </article>
             <figure class="col5 push1">
                 <img src="<?php echo get_bloginfo('template_url') ?>/images/wondering.png" alt="">
@@ -37,14 +31,14 @@
             </figure>
             <article class="col6 push1 box">
                 <h2 style="margin-bottom: 41px">
-                    Symptomer
+                    <?php the_field("symptom_title")?>
                 </h2>
                 <div class="container">
                     <p class="number">
                         1.
                     </p>
                     <p class="text">
-                        Pludselige hedeture og hjertebanken
+                        <?php the_field("symptom_1")?>
                     </p>
                 </div>
                 <div class="container">
@@ -52,7 +46,7 @@
                         2.
                     </p>
                     <p class="text">
-                        Svedeudbrud, også i løbet af natten
+                        <?php the_field("symptom_2")?>
                     </p>
                 </div>
                 <div class="container">
@@ -60,7 +54,7 @@
                         3.
                     </p>
                     <p class="text">
-                        Søvnløshed
+                        <?php the_field("symptom_3")?>
                     </p>
                 </div>
                 <div class="container">
@@ -68,7 +62,7 @@
                         4.
                     </p>
                     <p class="text">
-                        Udeblevet menstruation, eller uregelmæssige blødninger
+                        <?php the_field("symptom_4")?>
                     </p>
                 </div>
                 <div class="container">
@@ -76,7 +70,7 @@
                         5.
                     </p>
                     <p class="text">
-                        Tøre slimhinder i skede, smerter under samleje
+                        <?php the_field("symptom_5")?>
                     </p>
                 </div>
                 <div class="container">
@@ -84,7 +78,7 @@
                         6.
                     </p>
                     <p class="text">
-                        Knogletab i forbindelse med det faldende østrogen niveau.
+                        <?php the_field("symptom_6")?>
                     </p>
                 </div>
                 <div class="container">
@@ -92,15 +86,15 @@
                         7.
                     </p>
                     <p class="text">
-                        Humørsvingninger, irritabilitet, depression
+                        <?php the_field("symptom_7")?>
                     </p>
                 </div>
                 <div class="container">
                     <p class="number">
                         8.
                     </p>
-                    <p class="text">
-                        Vægt stigning  
+                    <p class="text">  
+                        <?php the_field("symptom_8")?>
                     </p>
                 </div>
             </article>
@@ -110,14 +104,14 @@
         <div class="wrapper container">
             <article class="col6 box">
                 <h2 style="margin-bottom: 53px">
-                    Hvad kan hjælpe?
+                    <?php the_field("hvad_kan_hjaelpe_title")?>
                 </h2>
                 <div class="container">
                     <p class="number">
                         1.
                     </p>
                     <p class="text">
-                        Påklædning der består af flere lag
+                        <?php the_field("hjaelp_1")?>
                     </p>
                 </div>
                 <div class="container">
@@ -125,7 +119,7 @@
                         2.
                     </p>
                     <p class="text">
-                        Sørg for at sove i et køligt lokale
+                        <?php the_field("hjaelp_2")?>
                     </p>
                 </div>
                 <div class="container">
@@ -133,7 +127,7 @@
                         3.
                     </p>
                     <p class="text">
-                        Undgå kaffe, alkohol, stress og varme
+                        <?php the_field("hjaelp_3")?>
                     </p>
                 </div>
                 <div class="container">
@@ -141,7 +135,7 @@
                         4.
                     </p>
                     <p class="text">
-                        Meditation eller motivations programmer
+                        <?php the_field("hjaelp_4")?>
                     </p>
                 </div>
                 <div class="container">
@@ -149,7 +143,7 @@
                         5.
                     </p>
                     <p class="text">
-                        Gør brug af glidecreme under samleje
+                        <?php the_field("hjaelp_5")?>
                     </p>
                 </div>
                 <div class="container">
@@ -157,7 +151,7 @@
                         6.
                     </p>
                     <p class="text">
-                        Akkupunktur
+                        <?php the_field("hjaelp_6")?>
                     </p>
                 </div>
                 <div class="container">
@@ -165,7 +159,7 @@
                         7.
                     </p>
                     <p class="text">
-                        Gør brug af vitamin D og kalk
+                        <?php the_field("hjaelp_7")?>
                     </p>
                 </div>
                 <div class="container">
@@ -173,7 +167,7 @@
                         8.
                     </p>
                     <p class="text">
-                        Kostplan og motion
+                        <?php the_field("hjaelp_8")?>
                     </p>
                 </div>
             </article>

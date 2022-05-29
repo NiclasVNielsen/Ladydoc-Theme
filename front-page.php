@@ -5,24 +5,25 @@
 <!-- Wrapper size + col padding to make it accurate the easiest -->
 
 <section class="hero verticalCenter">
+    <img class="mainImage" src="<?php echo get_bloginfo('template_url') ?>/images/hero.png" alt="">
+    <img class="topRightImage" src="<?php echo get_bloginfo('template_url') ?>/images/toprighthero.png" alt="">
+    <img class="bottomLeft" src="<?php echo get_bloginfo('template_url') ?>/images/bottomlefthero.png" alt="">
+    <img class="bottomRight" src="<?php echo get_bloginfo('template_url') ?>/images/bottomrighthero.png" alt="">
+    <svg viewBox="0 0 759 1062" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1233.58 608.975L1242.85 606.537L1252.29 603.99L1261.88 601.315L1271.62 598.511L1281.48 595.561L1291.46 592.455L1301.53 589.184L1311.68 585.748L1321.93 582.138L1332.21 578.345L1342.53 574.36L1352.89 570.182L1363.26 565.802L1373.61 561.212L1383.96 556.42L1394.25 551.408L1404.48 546.186L1414.65 540.753L1424.71 535.1L1434.67 529.227L1444.51 523.134L1454.21 516.821L1463.75 510.298L1473.11 503.554L1482.24 496.6L1491.14 489.435L1499.77 482.069L1508.14 474.501L1516.19 466.731L1523.91 458.778L1531.28 450.642L1538.3 442.341L1544.93 433.876L1551.14 425.254L1556.97 416.495L1562.35 407.607L1567.33 398.601L1571.88 389.485L1575.98 380.277L1579.64 370.986L1582.85 361.622L1585.63 352.194L1587.95 342.721L1589.84 333.21L1591.28 323.672L1592.3 314.125L1592.87 304.578L1593 295.031L1592.72 285.512L1592.02 276.02L1590.9 266.564L1589.35 257.164L1587.39 247.819L1585.04 238.546L1582.27 229.357L1579.1 220.259L1575.53 211.261L1571.57 202.383L1567.21 193.624L1562.48 185.002L1557.34 176.527L1551.81 168.208L1545.92 160.063L1539.64 152.092L1532.99 144.313L1525.96 136.736L1518.58 129.37L1510.83 122.232L1502.74 115.324L1494.31 108.663L1485.54 102.249L1476.43 96.1016L1467.03 90.2286L1457.3 84.6304L1447.29 79.3163L1437 74.2955L1426.44 69.5769L1415.63 65.1608L1404.59 61.0561L1393.34 57.2629L1381.89 53.7721L1370.25 50.602L1358.47 47.7434L1346.54 45.1871L1334.5 42.9424L1322.36 40.9908L1310.14 39.3325L1297.87 37.9581L1285.58 36.8586L1273.28 36.0249L1261.01 35.4385L1248.8 35.0812L1236.66 34.9347L1224.62 34.9803L1212.7 35.191L1200.93 35.5393L1189.34 35.9974L1177.95 36.5381L1166.78 37.1334L1155.86 37.7566L1145.19 38.3705L1134.79 38.9477L1124.68 39.4515L1114.86 39.8639L1105.34 40.1479L1096.12 40.267L1087.2 40.2029L1078.57 39.9372L1069.6 2.76611L1061.56 2.01477L1053.8 0.997803L1046.3 -0.3125L1039.04 -1.92505L1032.01 -3.84912L1025.19 -6.09375L1018.57 -8.65918L1012.11 -11.5544L1005.81 -14.7887L999.633 -18.3528L993.553 -22.2375L987.549 -26.443L982.24 5.71631L976.313 0.896973L970.398 -4.21558L964.46 -9.60291L958.49 -15.2468L952.453 -21.129L946.34 -27.2311L940.127 -33.5347L933.793 -40.0123L927.316 -46.6458L920.695 -53.4075L913.91 -60.2699L906.937 -67.2148L899.777 -74.2056L892.418 -81.233L884.851 -88.2605L877.074 -95.2605L869.076 -102.214L860.87 -109.095L852.443 -115.875L843.796 -122.536L834.928 -129.051L825.84 -135.4L816.543 -141.566L807.047 -147.54L797.354 -153.294L787.473 -158.819L777.404 -164.096L767.16 -169.126L756.75 -173.891L746.197 -178.389L735.49 -182.613L724.651 -186.562L713.69 -190.245L702.608 -193.653L691.417 -196.787L680.126 -199.655L668.735 -202.266L657.268 -204.621L645.713 -206.728L634.091 -208.597L622.393 -210.228L610.639 -211.63L598.819 -212.812L586.945 -213.783L575.015 -214.562L563.019 -215.157L550.968 -215.588L538.85 -215.863L526.667 -216H514.418L502.091 -215.89L489.699 -215.652L477.229 -215.294L464.682 -214.818L452.059 -214.213L439.368 -213.49L426.612 -212.637L413.79 -211.648L400.902 -210.512L387.959 -209.229L374.96 -207.791L361.929 -206.187L348.864 -204.41L335.778 -202.44L322.68 -200.269L309.583 -197.886L296.507 -195.284L283.465 -192.444L270.466 -189.365L257.534 -186.03L244.69 -182.421L231.956 -178.536L219.354 -174.367L206.895 -169.896L194.613 -165.122L182.529 -160.037L170.665 -154.631L159.032 -148.905L147.664 -142.858L136.583 -136.481L125.809 -129.774L115.366 -122.747L105.276 -115.39L95.5494 -107.712L86.2192 -99.7133L77.2965 -91.4031L68.8035 -82.7905L60.7511 -73.8849L53.1613 -64.6952L46.0452 -55.2307L39.4138 -45.5005L33.2781 -35.5228L27.6492 -25.3069L22.5379 -14.8711L17.9444 -4.23376L13.8686 6.59583L10.3216 17.5997L7.30335 28.7593L4.81382 40.0563L2.84203 51.4724L1.38797 62.9802L0.440624 74.5794L0 86.2338L0.055078 97.934L0.583827 109.662L1.57523 121.398L3.01828 133.126L4.89093 144.835L7.18218 156.499L9.86998 168.107L12.9323 179.643L16.3582 191.095L20.1145 202.447L24.1903 213.689L28.5635 224.812L33.2231 235.807L38.136 246.664L43.2913 257.375L48.678 267.939L54.2739 278.347L60.0681 288.59L66.0386 298.669L72.1743 308.573L78.4532 318.303L84.8642 327.86L91.3745 337.233L97.9618 346.422L104.604 355.438L111.28 364.27L117.955 372.919L124.62 381.394L131.24 389.695L137.805 397.822L144.293 405.784L150.682 413.581L156.961 421.232L163.119 428.736L169.145 436.102L175.016 443.331L180.733 450.441L186.274 457.441L191.639 464.331L196.816 471.129L201.806 477.845L206.598 484.478L211.18 491.048L215.564 497.562L219.739 504.031L223.716 510.462L227.494 516.867L231.085 523.253L234.489 529.621L237.717 535.988L240.779 542.356L243.687 548.733L246.463 555.119L249.118 561.523L251.674 567.946L254.141 574.387L256.542 580.856L258.9 587.343L261.235 593.848L263.559 600.371L265.906 606.904L268.285 613.446L270.72 619.988L273.231 626.529L275.842 633.053L278.574 639.558L281.438 646.036L284.445 652.477L287.606 658.863L290.944 665.194L294.458 671.461L298.17 677.654L302.07 683.766L306.168 689.785L310.475 695.704L314.98 701.522L319.684 707.23L324.586 712.819L329.675 718.289L334.952 723.64L340.404 728.862L346.033 733.965L351.816 738.94L357.743 743.787L363.812 748.515L370.014 753.124L376.326 757.604L382.748 761.974L389.27 766.235L395.879 770.385L402.554 774.444L409.285 778.411L416.048 782.305L422.845 786.135L429.653 789.919L436.46 793.676L443.246 797.414L450.01 801.152L456.729 804.908L463.405 808.702L470.025 812.55L476.579 816.462L483.067 820.466L489.49 824.58L495.835 828.822L502.102 833.201L508.293 837.746L514.407 842.464L520.454 847.375L526.447 852.488L532.384 857.811L538.289 863.354L544.16 869.117L550.02 875.109L555.881 881.321L561.763 887.753L567.689 894.396L573.671 901.231L579.729 908.249L585.887 915.441L592.155 922.78L598.555 930.247L605.109 937.815L611.829 945.457L618.725 953.144L625.819 960.84L633.133 968.518L640.668 976.141L648.423 983.672L656.42 991.084L664.66 998.323L673.142 1005.36L681.866 1012.15L690.833 1018.66L700.031 1024.86L709.46 1030.68L719.099 1036.12L728.947 1041.12L738.982 1045.65L749.193 1049.7L759.559 1053.2L770.057 1056.16L780.654 1058.55L791.339 1060.32L802.079 1061.48L812.853 1062L823.626 1061.87L834.377 1061.09L845.062 1059.65L855.67 1057.56L866.157 1054.8L876.501 1051.4L886.679 1047.36L896.659 1042.7L906.419 1037.45L915.937 1031.63L925.19 1025.26L934.156 1018.38L942.826 1011.02L951.187 1003.23L959.217 995.052L966.928 986.513L974.308 977.671L981.358 968.573L988.078 959.255L994.467 949.754L1000.54 940.115L1006.29 930.357L1011.73 920.526L1016.87 910.649L1021.72 900.754L1026.29 890.859L1030.59 880.982L1034.62 871.151L1038.4 861.375L1041.93 851.672L1045.23 842.061L1048.3 832.551L1051.18 823.16L1053.85 813.897L1056.34 804.771L1058.67 795.801L1060.84 786.996L1062.87 778.365L1064.79 769.927L1066.61 761.681L1068.35 753.646L1070.02 745.83L1071.66 738.244L1073.28 730.896L1074.9 723.795L1076.56 716.942L1078.25 710.354L1080.03 704.033L1081.9 697.976L1083.89 692.195L1086.03 686.679L1088.32 681.438L1090.8 676.473L1093.49 671.772L1096.39 667.329L1099.54 663.142L1102.96 659.202L1106.65 655.491L1110.62 652.009L1114.89 648.739L1119.46 645.66L1124.35 642.765L1129.55 640.034L1135.07 637.451L1140.91 635.004L1147.07 632.668L1153.54 630.423L1160.33 628.252L1167.41 626.135L1174.79 624.056L1182.45 621.985L1190.38 619.914L1198.58 617.825L1207.01 615.7L1215.68 613.519L1224.56 611.265L1233.64 608.929L1233.58 608.975Z" fill="#3D5BCD"/>
+    </svg>
     <h1 class="wrapper brightFont">
-        <span class="col7" style="display: block;">
-            The largest community of photo enthusiasts
+        <span class="col6" style="display: block;">
+            <?php the_field("forside_title") ?>
         </span>
     </h1>
 </section>
 
 <main class="info">
-    <section class="wrapper">
+    <section class="wrapper container">
         <article class="col6 verticalCenter">
-            <h2>
-                Hvad er Ladydoc?
-            </h2>
             <p>
-                Ladydoc er et “digitalt rum” hvor du kan føle dig tryg - Et online univers, hvor du kan finde svar og udforske problemstillinger om krop, sex og trivsel. Ladydoc stiller faglighed, erfaring og viden til rådighed for dig som er interesseret i udvikling, uafhængigt af køn, sex og orientering.
-                <br>
-                <br>
-                Det handler om din krop - dit liv - og din privatsfære, Ladydoc er for dig som ville have krop, sundhed og hverdag til at hænge sammen igen. I hverdagen kan der opstå emner som går over den normale, lægelige konsultation, derfor har vi skabt dette tillidsforhold - det er beskyttet og det handler om dig, vi tager os tid og låner dig vores øjne.
+                <?php the_field("hvad_er_ladydoc")?>
             </p>
         </article>
         <figure class="col5 push1">
@@ -35,13 +36,13 @@
     <div class="wrapper">
         <div class="verticalCenter">
             <h3 class="brightFont">
-                Brug for inspiration til at finde din løsning?
+                <?php the_field("find_din_losning_title")?>
             </h3>
             <p class="brightFont">
-                Tag testen og find ud af den bedste løsning for dig
+                <?php the_field("find_din_losning_paragraph")?>
             </p>
             <a class="CTA" href="">
-                Find din løsning
+                <?php the_field("find_din_losning_knap")?>
             </a>
         </div>
     </div>
@@ -49,59 +50,59 @@
 
 <section class="wrapper productSlide">
     <h4 class="col12">
-        Alt om
+        <?php the_field("alt_om_title") ?>
     </h4>
     <div class="container">
         <div class="col3 product">
             <figure>
-                <img src="" alt="">
+                <img src="<?php echo get_bloginfo('template_url') ?>/images/lichen_thumb.png" alt="">
             </figure>
             <h5 class="m-font-size">
-                Lichen Sclerosus
+                <?php the_field("alt_om_lichen_title") ?>
             </h5>
             <p>
-                Klør, hvide pletter på kønsdele, smerter under samleje og toiletbesøg.
+                <?php the_field("alt_om_lichen_paragraph") ?>
                 <br>
-                <a href="">Læs mere</a>
+                <a href="/lichen">Læs mere</a>
             </p>
         </div>
         <div class="col3 product">
             <figure>
-                <img src="" alt="">
+                <img src="<?php echo get_bloginfo('template_url') ?>/images/overgangsalderen_thumb.png" alt="">
             </figure>
             <h5 class="m-font-size">
-                Overgangsalder
+                <?php the_field("alt_om_overgangsalderen_title") ?>
             </h5>
             <p>
-                Hedeture, hjertebanken, søvnløshed og uregelmæssig menstruation.
+                <?php the_field("alt_om_overgangsalderen_paragraph") ?>
                 <br>
-                <a href="">Læs mere</a>
+                <a href="/overgangsalderen">Læs mere</a>
             </p>
         </div>
         <div class="col3 product">
             <figure>
-                <img src="" alt="">
+                <img src="<?php echo get_bloginfo('template_url') ?>/images/pco_thumb.png" alt="">
             </figure>
             <h5 class="m-font-size">
-                PCO
+                <?php the_field("alt_om_pco_title") ?>
             </h5>
             <p>
-                Uregelmæssig menstruation, øget hårvækst, nedsat frugtbarhed.
+                <?php the_field("alt_om_pco_paragraph") ?>
                 <br>
-                <a href="">Læs mere</a>
+                <a href="/pco">Læs mere</a>
             </p>
         </div>
         <div class="col3 product">
             <figure>
-                <img src="" alt="">
+                <img src="<?php echo get_bloginfo('template_url') ?>/images/andropause_thumb.png" alt="">
             </figure>
             <h5 class="m-font-size">
-                Andropause
+                <?php the_field("alt_om_andropause_title") ?>
             </h5>
             <p>
-                Humørsvingninger, vægtstigning, træthed, rejsningsbesvær.
+                <?php the_field("alt_om_andropause_paragraph") ?>
                 <br>
-                <a href="">Læs mere</a>
+                <a href="/andropause">Læs mere</a>
             </p>
         </div>
     </div>
@@ -110,10 +111,10 @@
 <section class="wrapper insta">
     <article class="col6 verticalCenter">
         <h6>
-            Få mere LadyDoc på Instagram
+            <?php the_field("instagram_title") ?>
         </h6>
         <p>
-            Vel neque est voluptatem velit magnam aut qui totam consequatur. Sed reiciendis perferendis molestias. Officiis velit quod et praesentium molestiae et. Eaque sunt consequuntur. Molestias architecto et voluptates qui nisi laudantium omnis tempora sit.
+            <?php the_field("instagram_paragraph") ?>
         </p>
         <a class="CTA" href="">
             Find din løsning

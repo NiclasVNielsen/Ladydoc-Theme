@@ -5,7 +5,7 @@
 <section class="alt_omHero" id="andropause">
     <h1>
         <span>Alt om:</span><br>
-        Andropause
+        <?php the_field("side_title")?>
     </h1>
     <img src="<?php echo get_bloginfo('template_url') ?>/images/andropause.png" alt="">
 </section>
@@ -14,10 +14,10 @@
         <div class="wrapper container">
             <article class="col6">
                 <h2 style="margin-bottom: 57px">
-                    Hvad er andropause?
+                    <?php the_field("hvad_er_det_title")?>
                 </h2>
                 <p>
-                    Andropause, eller den mandlige overgangsalder, er en livsfase som kan opleves af mænd i alderen 40 til 50. Ligesom hos kvinder oplever mænd, når de bliver ældre, at deres hormoner begynder at ændre sig, eller et fald i hormonniveauet. Hos mænd er der tale om et fald i det mandlige kønshormon, testosteron. 
+                    <?php the_field("hvad_er_det_paragraph")?>
                 </p>
             </article>
             <figure class="col5 push1">
@@ -32,14 +32,14 @@
             </figure>
             <article class="col6 push1 box">
                 <h2 style="margin-bottom: 41px">
-                    Symptomer
+                    <?php the_field("symptom_title")?>
                 </h2>
                 <div class="container">
                     <p class="number">
                         1.
                     </p>
                     <p class="text">
-                        Nedsat libido,sexlyst
+                        <?php the_field("symptom_1")?>
                     </p>
                 </div>
                 <div class="container">
@@ -47,7 +47,7 @@
                         2.
                     </p>
                     <p class="text">
-                        Adfærdsændringer
+                        <?php the_field("symptom_2")?>
                     </p>
                 </div>
                 <div class="container">
@@ -55,7 +55,7 @@
                         3.
                     </p>
                     <p class="text">
-                        Nedsat muskelmasse eller tab af muskelstyrke
+                        <?php the_field("symptom_3")?>
                     </p>
                 </div>
                 <div class="container">
@@ -63,7 +63,7 @@
                         4.
                     </p>
                     <p class="text">
-                        Vægtøgning som sætter sig på den øvre centrale del af kroppen
+                        <?php the_field("symptom_4")?>
                     </p>
                 </div>
                 <div class="container">
@@ -71,7 +71,7 @@
                         5.
                     </p>
                     <p class="text">
-                        Ledsmerter
+                        <?php the_field("symptom_5")?>
                     </p>
                 </div>
                 <div class="container">
@@ -79,7 +79,7 @@
                         6.
                     </p>
                     <p class="text">
-                        Træthed
+                        <?php the_field("symptom_6")?>
                     </p>
                 </div>
                 <div class="container">
@@ -87,7 +87,7 @@
                         7.
                     </p>
                     <p class="text">
-                        Erektionsbesvær, ejakulationsbesvær 
+                        <?php the_field("symptom_7")?>
                     </p>
                 </div>
             </article>
@@ -97,14 +97,14 @@
         <div class="wrapper container">
             <article class="col6 box">
                 <h2 style="margin-bottom: 50px">
-                    Hvad kan hjælpe?
+                    <?php the_field("hvad_kan_hjaelpe_title")?>
                 </h2>
                 <div class="container">
                     <p class="number">
                         1.
                     </p>
                     <p class="text">
-                        Kostplan eller ændring af kostvaner
+                        <?php the_field("hjaelp_1")?>
                     </p>
                 </div>
                 <div class="container">
@@ -112,7 +112,7 @@
                         2.
                     </p>
                     <p class="text">
-                        Rygestop
+                        <?php the_field("hjaelp_2")?>
                     </p>
                 </div>
                 <div class="container">
@@ -120,7 +120,7 @@
                         3.
                     </p>
                     <p class="text">
-                        Sænke forbrug af alkohol
+                        <?php the_field("hjaelp_3")?>
                     </p>
                 </div>
                 <div class="container">
@@ -128,7 +128,7 @@
                         4.
                     </p>
                     <p class="text">
-                        Mindfulness, meditation
+                        <?php the_field("hjaelp_4")?>
                     </p>
                 </div>
                 <div class="container">
@@ -136,7 +136,7 @@
                         5.
                     </p>
                     <p class="text">
-                        Hobbier og sociale aktiviteter 
+                        <?php the_field("hjaelp_5")?>
                     </p>
                 </div>
             </article>

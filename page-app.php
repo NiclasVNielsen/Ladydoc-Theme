@@ -4,7 +4,7 @@
 
 <section class="appHero">
     <h1>
-        Med Bodyluck styrer du
+        <?php the_field("side_title") ?>
     </h1>
     <div></div>
     <figure>
@@ -14,10 +14,10 @@
 <section class="wrapper crossphoneContainer container">
     <article class="col7">
         <h2>
-            Få styr på dine symptomer
+            <?php the_field("ad_title") ?>
         </h2>
         <p>
-            Med Bodyluck appen kan du nemt og hurtigt lave journal over dine symptomer. “Tilføj selv” funktionen gør appen flexibel og kustomiserbar, så du kan bruge appens funktioner til lige præcis det DU har behov for.
+            <?php the_field("ad_paragraph") ?>
         </p>
     </article>
     <figure class="col6">
@@ -27,7 +27,7 @@
 <section class="features">
     <div class="wrapper">
         <h3>
-            Features
+            <?php the_field("feature_title") ?>
         </h3>
         <section>
             <div class="container icons">
@@ -55,34 +55,34 @@
             <div class="container featureInfo">
                 <article class="col3">
                     <h4>
-                        Customisation
+                        <?php the_field("feature_1_title") ?>
                     </h4>
                     <p>
-                        Tilføj dine egne kategorier og målbare enheder, lige fra humør til smerter.
+                        <?php the_field("feature_1_paragraph") ?>
                     </p>
                 </article>
                 <article class="col3">
                     <h4>
-                        Statistiker
+                        <?php the_field("feature_2_title") ?>
                     </h4>
                     <p>
-                        Få et overblik over dine målinger med app’ens udvalg af statistik-værktøjer, så som søjlediagram, piechart m.m
+                        <?php the_field("feature_2_paragraph") ?>
                     </p>
                 </article>
                 <article class="col3">
                     <h4>
-                        Journal
+                        <?php the_field("feature_3_title") ?>
                     </h4>
                     <p>
-                        Skriv journal over hvert eneste symptom du måler og tilføj dine egne notater og obseveringer.
+                        <?php the_field("feature_3_paragraph") ?>
                     </p>
                 </article>
                 <article class="col3">
                     <h4>
-                        Sikkerhed
+                        <?php the_field("feature_4_title") ?>
                     </h4>
                     <p>
-                        Sørg for at dit privatliv forbliver privat med app’ens pinkode funktion, som holder uvelkomne ude. 
+                        <?php the_field("feature_4_paragraph") ?>
                     </p>
                 </article>
             </div>
@@ -95,10 +95,10 @@
     </figure>
     <div class="col6 push1">
         <h5>
-            Hent Bodyluck appen her
+            <?php the_field("hent_title") ?>
         </h5>
         <p>
-            Bodyluck er for dig som vil have hverdagen tilbage, til dig som - uafhængigt af køn og orientering - vil holde styr på daglige eller periodiske gener og symptomer. App’en kan bruges i sammenhæng med lægelige konsultationer, hvis dig og læge personalet har brug for et overblik over symptomer og gener.
+            <?php the_field("hent_paragraph") ?>
         </p>
     </div>
 </section>

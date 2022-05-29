@@ -102,6 +102,7 @@ header
     padding: 14px 26.5px 0
     justify-content: space-between
     align-items: center
+    background: #3D5BCD
     nav
         max-width: 475px
         width: 100%
@@ -121,12 +122,55 @@ header
                         position: absolute
                         display: none
                         transition: 100
+                        background: #3D5BCD
+                        transform: translateX(-10px)
+                        border-radius: 0 0 10px 10px
                         li
                             list-style: none
+                            padding: 10px
                         a
                             color: $brightFont
                         &:hover
                             display: block
+.burger
+    display: none
+
+@media screen and (max-width: 600px)
+    header
+        position: fixed
+        top: 0
+        left: 0
+        transform: translateX(-100%)
+        transition: 300ms
+        height: 100vh
+        background: $main
+        &.on
+            transform: translateX(0%)
+            justify-content: flex-start
+            .menu-main-menu-container
+                padding-top: 1em
+        nav
+            >div
+                >ul
+                    flex-direction: column
+                    >li
+                        padding: 5px
+                        .sub-menu
+                            position: static
+                            &:focus
+                                display: block
+    .burger
+        display: block
+        position: fixed
+        top: 14px
+        right: 24px
+        z-index: 10000
+        padding: 12px
+        background: $main
+        border-radius: 50%
+        aspect-ratio: 1/1
+        svg
+            display: block
 
 footer
     margin-top: 100px
@@ -166,14 +210,65 @@ footer
         border-top: 1px solid $odd
         margin-top: 60px
         margin-bottom: 27px
+        
+@media screen and (max-width: 744px)
+    footer
+        h6
+            margin-top: 2.5em
+        .bottom
+            >.container
+                display: none
+
 /* --- Staples --- */   
 /* --- Sections --- */   
 .hero
-    background: black
-    height: 100vh
-    /* ^ (PH) */
+    position: relative
+    height: 900px
+    svg
+        position: absolute
+        top: 0
+        right: 0
+        width: 52.91%
     h1
-        //color: $neutral
+        color: $titleColor
+        span
+            color: $odd
+    .mainImage
+        position: absolute
+        width: 27.77vw
+        aspect-ratio: 400 / 349
+        top: calc(50vh - 3.6vw)
+        transform: translate(50%, -50%)
+        right: 35.27vw
+        display: block
+        z-index: 10
+    .topRightImage
+        position: absolute
+        width: 16.73vw
+        aspect-ratio: 241 / 235
+        top: calc(50vh - 12.11vw)
+        transform: translate(50%, -50%)
+        right: 16.7vw
+        display: block
+        z-index: 9
+    .bottomLeft
+        position: absolute
+        width: 14.02vw
+        aspect-ratio: 202 / 175
+        top: calc(50vh + 12.95vw)
+        transform: translate(50%, -50%)
+        right: 45.69vw
+        display: block
+        z-index: 9
+    .bottomRight
+        position: absolute
+        width: 19.58vw
+        aspect-ratio: 282 / 221
+        top: calc(50vh + 11.84vw)
+        transform: translate(50%, -50%)
+        right: 18.12vw
+        display: block
+        z-index: 9
 
 .info
     overflow-x: hidden
@@ -203,7 +298,6 @@ footer
     .product
         figure
             aspect-ratio: 1
-            background: $main
             border-radius: 20px
         a
             color: $odd
@@ -219,6 +313,58 @@ footer
         div
             width: 50%
 
+@media screen and (max-width: 744px)
+    .hero
+        height: 450px
+        h1
+            position: absolute
+            top: 50%
+            font-size: 32px
+            line-height: 56px
+        .mainImage
+            width: 31.31vw
+            aspect-ratio: 400 / 349
+            top: calc(50vh - 19.35vw)
+            transform: translateY(-50%)
+            right: 13.03vw
+        .topRightImage
+            width: 18.95vw
+            aspect-ratio: 241 / 235
+            top: calc(50vh - 29.65vw)
+            transform: translateY(-50%)
+            right: -1.74vw
+        .bottomLeft
+            width: 15.86vw
+            aspect-ratio: 202 / 175
+            top: calc(50vh - 1.38vw)
+            transform: translate(50%, -50%)
+            right: 40.52vw
+        .bottomRight
+            width: 22.17vw
+            aspect-ratio: 282 / 221
+            top: calc(50vh - 2.16vw)
+            transform: translateY(-50%)
+            right: -1.74vw
+
+@media screen and (max-width: 500px)
+    .hero
+        height: 450px
+        h1
+        .mainImage
+            display: none
+        .topRightImage
+            display: none
+        .bottomLeft
+            display: none
+        .bottomRight
+            display: none
+    .alt
+        padding: 5em 1em 5em
+    .info
+        .col5
+            margin-top: 3em
+    
+
 /* About */
 .aboutHero
     position: relative
@@ -229,10 +375,22 @@ footer
             position: absolute
             bottom: 0
             left: 0
-            width: 65.55%
+            width: 41.66%
             height: auto
     img
         display: block
+    .textoverlay
+        position: absolute
+        bottom: 6.04vw
+        left: 9.02%
+        z-index: 10
+        width: 32.7vw
+    iframe
+        aspect-ratio: 560 / 315
+        max-width: 560px
+        width: 100%
+        display: block
+
 .kompetencer
     background: $babyblue
     padding: 23px 0 63px
@@ -243,6 +401,10 @@ footer
         flex-wrap: wrap
 .altColor
     background: $babyblue
+    
+@media screen and (max-width: 600px)
+    .container
+        flex-direction: column
 
 /* Alt om */
 .alt_omHero
@@ -268,6 +430,12 @@ footer
     .container > .text
         font-size: 16px
         margin-top: 4px
+
+@media screen and (max-width: 600px)
+    .alt_omHero
+        h1, h2
+            font-size: 32px
+            line-height: 56px
 
 /* App */
 .appHero
@@ -332,6 +500,20 @@ footer
     h5
         margin-bottom: 57px
 
+@media screen and (max-width: 900px)
+    .appHero
+        h1
+            font-size: 32px
+            font-size: 56px
+    .features
+        .icons
+            display: none
+        .featureInfo
+            flex-direction: column
+    .finalPromo
+        img
+            display: none
+
 /* --- Sections --- */
 /* --- Columns --- */
 @for $i from 1 through 12
@@ -354,12 +536,12 @@ footer
             margin-left: calc((100% / 8) * #{$i}) !important
 
 @media screen and (max-width: 500px)
-    @for $i from 1 through 4
-        .s-col#{$i}
-            width: calc((100% / 4) * #{$i}) !important
+    @for $i from 1 through 12
+        .col#{$i}
+            width: 100% !important
             padding-left: 12px
             padding-right: 12px
-    @for $i from 1 through 4
-        .s-push#{$i}
-            margin-left: calc((100% / 4) * #{$i}) !important
+    @for $i from 1 through 12
+        .push#{$i}
+            margin-left: 0 !important
 /* --- Columns --- */
