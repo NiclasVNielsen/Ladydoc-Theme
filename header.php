@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LadyDoc</title>
+    <link rel="icon" type="image/x-icon" href="<?php echo get_bloginfo('template_url') ?>/images/favicon.png">
 	<?php wp_head(); ?>
 </head>
 <body>
@@ -41,7 +42,7 @@
             <path d="M26.7333 8H5.26667C4.56711 8 4 8.56711 4 9.26667V9.4C4 10.0996 4.56711 10.6667 5.26667 10.6667H26.7333C27.4329 10.6667 28 10.0996 28 9.4V9.26667C28 8.56711 27.4329 8 26.7333 8Z" fill="white"/>
         </svg>
     </div>
-<script defer>
+<!-- <script defer>
     console.log(document.documentElement.scrollTop)
     const header = document.querySelector('header')
     document.addEventlistener('scroll', () => {
@@ -52,4 +53,4 @@
             header.classList.add("background")
         }
     })
-</script>
+</script> -->
